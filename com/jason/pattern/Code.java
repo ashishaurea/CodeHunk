@@ -27,6 +27,12 @@ public class Code {
 		 System.out.println("line 4");
 		 System.out.println("line 5");	
 	}
+	
+	public void printsomething2(){
+		 System.out.println("line 1");
+		 System.out.println("line 2");
+		 
+	}
 
 	public static void main(String [] agrs){
 		ApplicationContext context = new ClassPathXmlApplicationContext("file:C:\\2task\\Code\\SpringAOP\\src\\applicationContext.xml");
